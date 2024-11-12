@@ -1,19 +1,23 @@
+#ifndef VEICULO_H
+#define VEICULO_H
+
 #include <iostream>
 
 using namespace std;
 
-
-class Veiculo {
-
-    protected:              //para so as classes poderem 
+class Veiculo{
+    protected:
         string name;
-    
+
+
     public:
+        Veiculo(string name);  // construtor
+        
 
-        Veiculo(string name); //construtor
-
-
-
-        virtual void exibirInfo();
-
+        
+        
+        virtual void mostrarDetalhes();
+        
 };
+
+#endif
