@@ -1,12 +1,9 @@
-#include <iostream>
 #include "veiculo.h"
-using namespace std;
 
-//construtor
-Veiculo::Veiculo(string name) // inicializar o nome 
-{}
+Veiculo::Veiculo(string Name) {
+    this->name = Name;
+}
 
-void Veiculo::exibirInfo()
-{
-    cout << "nome: " << name << endl;
+void Veiculo::mostrarDetalhes() {
+    cout << "Nome Veiculo: " << name << endl;
 }
