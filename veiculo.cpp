@@ -1,6 +1,6 @@
 #include "veiculo.h"
 
-Veiculo::Veiculo(string Name) {
+Veiculo::Veiculo(string Name) { //inicializa o nome do veículo
     this->name = Name;
 }
 
