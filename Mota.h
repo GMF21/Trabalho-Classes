@@ -8,7 +8,7 @@ class Mota : public Veiculo {
         string cc;
     
     public:
-        Mota(string name, string cc);
+        Mota(string name, string cc); //construtor
         void mostrarDetalhes() override;
 };
 
