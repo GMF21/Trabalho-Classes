@@ -8,7 +8,7 @@ class Car : public Veiculo {
         int num_portas;
 
     public:
-        Car(string name, int num_portas);
+        Car(string name, int num_portas); //construtor
         void mostrarDetalhes() override;
 };
 
