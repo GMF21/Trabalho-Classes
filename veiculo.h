@@ -6,7 +6,7 @@
 using namespace std;
 
 class Veiculo{
-    protected:
+    protected:      // nao passa para outras classes
         string name;
 
 
