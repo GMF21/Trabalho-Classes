@@ -16,7 +16,7 @@ class Veiculo{
 
         
         
-        virtual void mostrarDetalhes();
+        virtual void mostrarDetalhes(); //virtual-indica q pode ser substituido em classes derivadas, as classes q herdam de veiculo podem subscrever esse metodo
         
 };
 
