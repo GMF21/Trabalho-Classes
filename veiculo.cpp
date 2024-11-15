@@ -5,5 +5,5 @@ Veiculo::Veiculo(string Name) { //inicializa o nome do veículo
 }
 
 void Veiculo::mostrarDetalhes() {
-    cout << "Nome Veiculo: " << name << endl;
+    cout << "Nome Veiculo: " << Name << endl;
 }
